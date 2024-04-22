@@ -1,0 +1,128 @@
+/* estilo global aplicado ao body */
+body{
+    margin: auto;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    
+}
+    
+
+.input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+}
+
+.button{
+    margin: 15px;
+    width: 200px;
+    padding: 10px 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: rgb(3, 0, 0);
+    background-color: var(--blue);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: .5s;
+}
+
+.button:hover{
+    background-color: var(--red);
+    color: black;
+    transition: 1s;
+}
+
+.button2{
+    margin: 15px;
+    width: 200px;
+    padding: 10px 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: rgb(3, 0, 0);
+    background-color: var(--transp);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: .5s;
+}
+
+.button2:hover{
+    background-color: var(--red);
+    color: black;
+    transition: 1s;
+}
+
+:root {
+    --blue: #367aca;
+    --red:  #ff7373;
+    --transp: hsla(0, 0%, 0%, 0);
+}
+
+.background{
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+header{
+    width: 100vw;
+    height:  12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+
+.options-header{
+    padding: 0 5px;
+    display: flex;
+    text-align: center;
+    
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links{
+    letter-spacing: 3px;
+    font-size: 1.1rem;
+    list-style: none;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.logo{
+    display: flex;
+    word-wrap: normal;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+}
+
+.tex{
+    color: #ce7b6c;
+}
+
+img{
+   height: 700px;
+   width: 1370px;
+}
